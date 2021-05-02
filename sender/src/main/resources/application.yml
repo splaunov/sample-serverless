@@ -1,0 +1,14 @@
+sample-serverless:
+  dontCollectEventsOlderThanHours: 48
+  maxRecentUsersInWelcomeMessage: 3
+  recentUsersListResourceURL: s3://sample-serverless/recentusers.json
+  senderEmail: splaunov@gmail.com
+  pushServiceUri: https://notification-backend.domain.net/
+  inboundMessageTimeZone: UTC
+  recentUsersListStaleThresholdSeconds: 10
+
+spring:
+  application:
+    name: sample-serverless
+  main:
+    web-application-type: none

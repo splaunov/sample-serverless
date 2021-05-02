@@ -1,0 +1,12 @@
+sample-serverless:
+  dontCollectEventsOlderThanHours: 24
+  maxRecentUsersInWelcomeMessage: 3
+  recentUsersListResourceURL: s3://sample-serverless/recentusers.json
+  senderEmail: some@mail.domain
+  pushServiceUri: none
+  inboundMessageTimeZone: UTC
+  recentUsersListStaleThresholdSeconds: 10
+
+spring:
+  main:
+    web-application-type: none

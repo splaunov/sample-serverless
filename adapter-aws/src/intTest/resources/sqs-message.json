@@ -1,0 +1,36 @@
+{
+  "Records": [
+    {
+      "messageId": "2c49602c-c8a0-4fcb-84cb-406c024159a1",
+      "receiptHandle": "AQEBU2kIQjNAqF9GlTF4IfbO",
+      "body": "{\"created_at\": \"2021-03-24T12:09:19\", \"name\": \"Anna\", \"id\": 1616587759025}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1616587799605",
+        "SenderId": "AIDAISMY7JYY5F7RTT6AO",
+        "ApproximateFirstReceiveTimestamp": "1616587869676"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "af2d25f647e5dfe6f4a628caffbc0ad0",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-west-1:194397544717:sqs-sender",
+      "awsRegion": "eu-west-1"
+    },
+    {
+      "messageId": "2c49602c-c8a0-4fcb-84cb-406c024159a2",
+      "receiptHandle": "AQEBU2kIQjNAqF9GlTF4Ifb1",
+      "body": "{\"created_at\": \"2021-03-24T13:00:00\", \"name\": \"Paul\", \"id\": 1616587759026}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1616587799606",
+        "SenderId": "AIDAISMY7JYY5F7RTT6A0",
+        "ApproximateFirstReceiveTimestamp": "1616587869677"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "fakeMD5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-west-1:194397544717:sqs-sender",
+      "awsRegion": "eu-west-1"
+    }
+  ]
+}
